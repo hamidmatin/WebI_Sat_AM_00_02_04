@@ -6,7 +6,7 @@ Live Server
 HTMLHint
 Image preview
 Path Intellisense
-
+Auto Rename Tag
         
 Beautify 
 Prettier - Code formatter
