@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <head>
+    <title>pendulum</title>
+    <style>
+      #div1 {
+        width: 270px;
+        height: 270px;
+        background-color: rgb(238, 255, 0);
+        border-style: solid;
+        border-color: rgba(219, 216, 27, 0.925);
+        border-width: 12px;
+        box-shadow: -18px 18px 10px rgb(153, 141, 141);
+        border-radius: 150px;
+        position: relative;
+        animation: myfirst linear 2s infinite alternate;
+        animation-duration: 2s;
+      }
+
+      @keyframes myfirst {
+        0% {
+          background-color: rgb(238, 255, 0);
+          left: 200px;
+          top: 20px;
+        }
+        5% {
+          background-color: rgb(238, 255, 0);
+          left: 230px;
+          top: 25px;
+        }
+        10% {
+          background-color: rgb(238, 255, 0);
+          left: 260px;
+          top: 30px;
+        }
+        15% {
+          background-color: rgb(238, 255, 0);
+          left: 290px;
+          top: 35px;
+        }
+        20% {
+          background-color: rgb(238, 255, 0);
+          left: 320px;
+          top: 40px;
+        }
+        25% {
+          background-color: rgb(238, 255, 0);
+          left: 350px;
+          top: 45px;
+        }
+        30% {
+          background-color: rgb(238, 255, 0);
+          left: 380px;
+          top: 50px;
+        }
+        35% {
+          background-color: rgb(238, 255, 0);
+          left: 410px;
+          top: 55px;
+        }
+        40% {
+          background-color: rgb(238, 255, 0);
+          left: 440px;
+          top: 60px;
+        }
+        45% {
+          background-color: rgb(238, 255, 0);
+          left: 470px;
+          top: 65px;
+        }
+        50% {
+          background-color: rgb(238, 255, 0);
+          left: 500px;
+          top: 66px;
+        }
+        55% {
+          background-color: rgb(238, 255, 0);
+          left: 530px;
+          top: 65px;
+        }
+        60% {
+          background-color: rgb(238, 255, 0);
+          left: 560px;
+          top: 60px;
+        }
+        65% {
+          background-color: rgb(238, 255, 0);
+          left: 590px;
+          top: 55px;
+        }
+        70% {
+          background-color: rgb(238, 255, 0);
+          left: 610px;
+          top: 50px;
+        }
+        75% {
+          background-color: rgb(238, 255, 0);
+          left: 640px;
+          top: 45px;
+        }
+        80% {
+          background-color: rgb(238, 255, 0);
+          left: 670px;
+          top: 40px;
+        }
+        85% {
+          background-color: rgb(238, 255, 0);
+          left: 700px;
+          top: 35px;
+        }
+        90% {
+          background-color: rgb(238, 255, 0);
+          left: 730px;
+          top: 30px;
+        }
+        95% {
+          background-color: rgb(238, 255, 0);
+          left: 760px;
+          top: 25px;
+        }
+        100% {
+          background-color: rgb(238, 255, 0);
+          left: 790px;
+          top: 20px;
+        }
+      }
+
+      @-webkit-keyframes myfirst {
+        0% {
+          background-color: rgb(238, 255, 0);
+          left: 200px;
+          top: 20px;
+        }
+        5% {
+          background-color: rgb(238, 255, 0);
+          left: 230px;
+          top: 25px;
+        }
+        10% {
+          background-color: rgb(238, 255, 0);
+          left: 260px;
+          top: 30px;
+        }
+        15% {
+          background-color: rgb(238, 255, 0);
+          left: 290px;
+          top: 35px;
+        }
+        20% {
+          background-color: rgb(238, 255, 0);
+          left: 320px;
+          top: 40px;
+        }
+        25% {
+          background-color: rgb(238, 255, 0);
+          left: 350px;
+          top: 45px;
+        }
+        30% {
+          background-color: rgb(238, 255, 0);
+          left: 380px;
+          top: 50px;
+        }
+        35% {
+          background-color: rgb(238, 255, 0);
+          left: 410px;
+          top: 55px;
+        }
+        40% {
+          background-color: rgb(238, 255, 0);
+          left: 440px;
+          top: 60px;
+        }
+        45% {
+          background-color: rgb(238, 255, 0);
+          left: 470px;
+          top: 65px;
+        }
+        50% {
+          background-color: rgb(238, 255, 0);
+          left: 500px;
+          top: 66px;
+        }
+        55% {
+          background-color: rgb(238, 255, 0);
+          left: 530px;
+          top: 65px;
+        }
+        60% {
+          background-color: rgb(238, 255, 0);
+          left: 560px;
+          top: 60px;
+        }
+        65% {
+          background-color: rgb(238, 255, 0);
+          left: 590px;
+          top: 55px;
+        }
+        70% {
+          background-color: rgb(238, 255, 0);
+          left: 610px;
+          top: 50px;
+        }
+        75% {
+          background-color: rgb(238, 255, 0);
+          left: 640px;
+          top: 45px;
+        }
+        80% {
+          background-color: rgb(238, 255, 0);
+          left: 670px;
+          top: 40px;
+        }
+        85% {
+          background-color: rgb(238, 255, 0);
+          left: 700px;
+          top: 35px;
+        }
+        90% {
+          background-color: rgb(238, 255, 0);
+          left: 730px;
+          top: 30px;
+        }
+        95% {
+          background-color: rgb(238, 255, 0);
+          left: 760px;
+          top: 25px;
+        }
+        100% {
+          background-color: rgb(238, 255, 0);
+          left: 790px;
+          top: 20px;
+        }
+      }
+      @-o-keyframes myfirst {
+        0% {
+          background-color: rgb(238, 255, 0);
+          left: 200px;
+          top: 20px;
+        }
+        5% {
+          background-color: rgb(238, 255, 0);
+          left: 230px;
+          top: 25px;
+        }
+        10% {
+          background-color: rgb(238, 255, 0);
+          left: 260px;
+          top: 30px;
+        }
+        15% {
+          background-color: rgb(238, 255, 0);
+          left: 290px;
+          top: 35px;
+        }
+        20% {
+          background-color: rgb(238, 255, 0);
+          left: 320px;
+          top: 40px;
+        }
+        25% {
+          background-color: rgb(238, 255, 0);
+          left: 350px;
+          top: 45px;
+        }
+        30% {
+          background-color: rgb(238, 255, 0);
+          left: 380px;
+          top: 50px;
+        }
+        35% {
+          background-color: rgb(238, 255, 0);
+          left: 410px;
+          top: 55px;
+        }
+        40% {
+          background-color: rgb(238, 255, 0);
+          left: 440px;
+          top: 60px;
+        }
+        45% {
+          background-color: rgb(238, 255, 0);
+          left: 470px;
+          top: 65px;
+        }
+        50% {
+          background-color: rgb(238, 255, 0);
+          left: 500px;
+          top: 66px;
+        }
+        55% {
+          background-color: rgb(238, 255, 0);
+          left: 530px;
+          top: 65px;
+        }
+        60% {
+          background-color: rgb(238, 255, 0);
+          left: 560px;
+          top: 60px;
+        }
+        65% {
+          background-color: rgb(238, 255, 0);
+          left: 590px;
+          top: 55px;
+        }
+        70% {
+          background-color: rgb(238, 255, 0);
+          left: 610px;
+          top: 50px;
+        }
+        75% {
+          background-color: rgb(238, 255, 0);
+          left: 640px;
+          top: 45px;
+        }
+        80% {
+          background-color: rgb(238, 255, 0);
+          left: 670px;
+          top: 40px;
+        }
+        85% {
+          background-color: rgb(238, 255, 0);
+          left: 700px;
+          top: 35px;
+        }
+        90% {
+          background-color: rgb(238, 255, 0);
+          left: 730px;
+          top: 30px;
+        }
+        95% {
+          background-color: rgb(238, 255, 0);
+          left: 760px;
+          top: 25px;
+        }
+        100% {
+          background-color: rgb(238, 255, 0);
+          left: 790px;
+          top: 20px;
+        }
+      }
+
+      @-moz-keyframes myfirst {
+        0% {
+          background-color: rgb(238, 255, 0);
+          left: 200px;
+          top: 20px;
+        }
+        5% {
+          background-color: rgb(238, 255, 0);
+          left: 230px;
+          top: 25px;
+        }
+        10% {
+          background-color: rgb(238, 255, 0);
+          left: 260px;
+          top: 30px;
+        }
+        15% {
+          background-color: rgb(238, 255, 0);
+          left: 290px;
+          top: 35px;
+        }
+        20% {
+          background-color: rgb(238, 255, 0);
+          left: 320px;
+          top: 40px;
+        }
+        25% {
+          background-color: rgb(238, 255, 0);
+          left: 350px;
+          top: 45px;
+        }
+        30% {
+          background-color: rgb(238, 255, 0);
+          left: 380px;
+          top: 50px;
+        }
+        35% {
+          background-color: rgb(238, 255, 0);
+          left: 410px;
+          top: 55px;
+        }
+        40% {
+          background-color: rgb(238, 255, 0);
+          left: 440px;
+          top: 60px;
+        }
+        45% {
+          background-color: rgb(238, 255, 0);
+          left: 470px;
+          top: 65px;
+        }
+        50% {
+          background-color: rgb(238, 255, 0);
+          left: 500px;
+          top: 66px;
+        }
+        55% {
+          background-color: rgb(238, 255, 0);
+          left: 530px;
+          top: 65px;
+        }
+        60% {
+          background-color: rgb(238, 255, 0);
+          left: 560px;
+          top: 60px;
+        }
+        65% {
+          background-color: rgb(238, 255, 0);
+          left: 590px;
+          top: 55px;
+        }
+        70% {
+          background-color: rgb(238, 255, 0);
+          left: 610px;
+          top: 50px;
+        }
+        75% {
+          background-color: rgb(238, 255, 0);
+          left: 640px;
+          top: 45px;
+        }
+        80% {
+          background-color: rgb(238, 255, 0);
+          left: 670px;
+          top: 40px;
+        }
+        85% {
+          background-color: rgb(238, 255, 0);
+          left: 700px;
+          top: 35px;
+        }
+        90% {
+          background-color: rgb(238, 255, 0);
+          left: 730px;
+          top: 30px;
+        }
+        95% {
+          background-color: rgb(238, 255, 0);
+          left: 760px;
+          top: 25px;
+        }
+        100% {
+          background-color: rgb(238, 255, 0);
+          left: 790px;
+          top: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <center><strong>انیمیشن پاندول ساعت</strong></center>
+    </h1>
+
+    <div id="div1"></div>
+  </body>
+</html>
